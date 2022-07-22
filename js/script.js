@@ -16,6 +16,16 @@ import {
 
 import { bubbleSort } from "./bubble-sort.js";
 
+import { insertionSort } from "./insertion-sort.js";
+
+import { mergeSort } from "./merge-sort.js";
+
+// MERGE SORT
+console.log(mergeSort([1, 2, 100, 3, 99, 4, 10000, 2]));
+
+// INSERTION SORT
+console.log(insertionSort([1, 10, 19, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]));
+
 // BUBBLE SORT
 console.log(bubbleSort([1, 10, 19, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]));
 // RECURSION
